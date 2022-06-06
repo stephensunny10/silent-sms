@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="js/client.js"></script>
+    <link rel="stylesheet"href="css/style.css">
+    <title>Node</title>
+</head>
+<body>
+    <div class="container">
+        <div class="user">
+
+        </div>
+        <div class="chat-box">
+            <div class="chat-box-header">
+
+                <div class="chat-box-left">
+                    <img src="img/user_orange.png"width="30px"height="30px">
+                </div>
+                <p id="userName">Realtime Chat</p>
+                <div class="chat-box-right">
+                    <img src="img/video_camera.png"width="30px"height="30px">
+                </div>
+            
+            </div>
+            <div class="inbox" id="inbox">
+
+                <div class="me">
+                    <p id="myMsg">Hi There!</p>
+                </div>
+                <div class="you">
+                    <p id="yourMsg">Hello </p>
+                </div>  
+
+            </div>
+            <div class="input-box">
+                <input type="text"placeholder= "Enter text here"id="input">
+                <img src="img/send.png"onclick="sendMsg()">
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+    <script>
+      
+    </script>
+</body>
+</html>
