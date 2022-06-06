@@ -13,7 +13,7 @@ app.get('/test', (req, res)=> {
     res.sendFile('test')
 })
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3005;
 
 const server = app.listen(port, () => {
     console.log("server is running "+port)
