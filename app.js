@@ -10,7 +10,7 @@ app.get('/', (req, res)=> {
 })
 
 app.get('/test', (req, res)=> {
-    res.sendFile('test')
+    res.send('sms server is running')
 })
 
 var port = process.env.PORT || 3005;
