@@ -13,7 +13,7 @@ app.get('/test', (req, res)=> {
     res.send('sms server is running')
 })
 
-var port = process.env.PORT || 3005;
+var port = process.env.PORT || 3006;
 
 const server = app.listen(port, () => {
     console.log("server is running "+port)
